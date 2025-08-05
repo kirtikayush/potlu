@@ -44856,7 +44856,7 @@ $0(){this.a.afK()},
 $S:0}
 A.Mu.prototype={
 N(a){var s=null
-return A.jX(new A.Aj(B.GF,"Flutter Demo",!1,s),s,s,B.bC,!0,A.HQ().$0(),s,s,B.ai)}}
+return A.jX(new A.Aj(B.GF,"Potlu's 26th Birthday",!1,s),s,s,B.bC,!0,A.HQ().$0(),s,s,B.ai)}}
 A.yh.prototype={
 ak(){return new A.RO()}}
 A.RO.prototype={
