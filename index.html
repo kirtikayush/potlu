@@ -11,7 +11,7 @@
   <!-- iOS meta -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="Potlu's 26th Birthday">
   <meta name="theme-color" content="#000000">
 
@@ -31,7 +31,6 @@
 
   <!-- 🔗 PWA Manifest -->
   <link rel="manifest" href="customIcon/site.webmanifest">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- 🧠 Title & Meta -->
   <title>Potlu's 26th Birthday</title>
   <style>
@@ -78,6 +77,10 @@
     @keyframes helix {
       0%, 100% { transform: translateY(0); opacity: 1; }
       50% { transform: translateY(-15px); opacity: 0.4; }
+    }
+    html, body {
+      zoom: 1;
+      webkit-text-size-adjust: 100%;
     }
   </style>
   <!-- <link rel="manifest" href="manifest.json"> -->
